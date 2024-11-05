@@ -1,13 +1,9 @@
-import Balancer from 'react-wrap-balancer';
-
-
+import Balancer from 'react-wrap-balancer'
 
 import config from '@/config/config'
-import { Phototab } from '@/components/sections/PhotoTab';
-import { Reviews } from '@/components/sections/Reviews';
-import { Container } from '@/components/ui/Container';
-import { SocialText } from '@/components/ui/SocialLinks';
-
+import { Phototab } from '@/components/sections/PhotoTab'
+import { Container } from '@/components/ui/Container'
+import { SocialText } from '@/components/ui/SocialLinks'
 
 export const metadata = {
   title: 'About',
@@ -29,19 +25,14 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="title-primary">
-              <Balancer>
-                {config.abouttitle}
-              </Balancer>
+              <Balancer>{config.abouttitle}</Balancer>
             </h1>
             <div className="mt-6 space-y-7 text-base body-secondary">
-              <p>
-                {config.aboutbody}
-              </p>
+              <p>{config.aboutbody}</p>
             </div>
           </div>
           <SocialText />
         </div>
-        <Reviews />
       </Container>
     </>
   )
