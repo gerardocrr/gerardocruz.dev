@@ -6,7 +6,6 @@ import { generalLinks } from '@/data/links'
 import { AnimatePresence, motion } from 'framer-motion'
 
 import { FADE_IN_ANIMATION_CARD } from '@/lib/constants'
-import { SpotifyPlayer } from '@/components/cards/NowPlaying'
 import { Container } from '@/components/ui/Container'
 
 function NavLink({ href, children, target, rel, onMouseEnter, onMouseLeave }) {
@@ -63,7 +62,6 @@ export function Footer() {
                   </NavLink>
                 ))}
               </div>
-              <SpotifyPlayer />
             </div>
           </Container.Inner>
         </div>

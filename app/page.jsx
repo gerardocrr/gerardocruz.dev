@@ -1,18 +1,16 @@
-import { allPosts } from '@/.contentlayer/generated';
-import Balancer from 'react-wrap-balancer';
+import { allPosts } from '@/.contentlayer/generated'
+import Balancer from 'react-wrap-balancer'
 
-import config from '@/config/config';
-import Article from '@/components/cards/ArticleCard';
-import DialogContact from '@/components/cards/ContactCard';
-import { SpotifyPlayer } from '@/components/cards/NowPlaying';
-import Stack from '@/components/cards/StackCard';
-import StackProject from '@/components/cards/project/CardHome';
-import Resume from '@/components/cards/resume/ResumeCard';
-import { StatusWork } from '@/components/sections/StatusWork';
-import { Avatar } from '@/components/ui/Avatar';
-import { Container } from '@/components/ui/Container';
+import config from '@/config/config'
+import Article from '@/components/cards/ArticleCard'
+import DialogContact from '@/components/cards/ContactCard'
+import Stack from '@/components/cards/StackCard'
+import StackProject from '@/components/cards/project/CardHome'
+import Resume from '@/components/cards/resume/ResumeCard'
+import { StatusWork } from '@/components/sections/StatusWork'
+import { Avatar } from '@/components/ui/Avatar'
+import { Container } from '@/components/ui/Container'
 import { SocialLinks } from '@/components/ui/SocialLinks'
-
 
 export default function Home() {
   const isAvailable = true
@@ -26,7 +24,8 @@ export default function Home() {
             <span className="text-2xl font-bold text-neutral-900 dark:text-white">
               {config.name}
             </span>
-            <br></br>{config.description}
+            <br></br>
+            {config.description}
           </Balancer>
           <StatusWork isAvailable={isAvailable} className="mt-4" />
           <SocialLinks />
@@ -49,7 +48,6 @@ export default function Home() {
 
           <StackProject className="overflow-hidden relative col-span-6 h-80 sm:col-span-3 md:col-span-3 lg:col-span-2" />
           <div className="grid relative col-span-6 grid-rows-3 gap-4 h-80 sm:col-span-3 md:col-span-3 lg:col-span-2">
-            <SpotifyPlayer />
             <DialogContact className="row-span-2" />
           </div>
 
