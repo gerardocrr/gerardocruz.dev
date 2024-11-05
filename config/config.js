@@ -8,16 +8,16 @@ const config = {
   aboutbody:
     'Desde mis inicios en el diseño gráfico, he estado comprometido con la creación de experiencias digitales que no solo sean visualmente atractivas, sino también funcionales y accesibles. Mi enfoque se centra en entender las necesidades del usuario y traducirlas en soluciones efectivas. He colaborado con diversas empresas, desde startups hasta grandes corporaciones, siempre buscando innovar y mejorar la interacción del usuario con la tecnología.',
   socialLinks: {
-    twitter: 'https://twitter.com/educalvolpz',
-    github: 'https://github.com/educlopez',
-    linkedin: 'https://linkedin.com/in/educlopez',
+    twitter: 'https://twitter.com/gerardocrrr',
+    github: 'https://github.com/gerardocrr',
+    linkedin: 'https://www.linkedin.com/in/gerardo-cruz-9903a3266/',
   },
   links: {
     home: '/',
     about: '/about',
     projects: '/proyectos',
     stack: '/stack',
-    email: 'mailto:example@example.com',
+    email: 'mailto:gerardo2551.cr@outlook.com',
   },
 }
 
