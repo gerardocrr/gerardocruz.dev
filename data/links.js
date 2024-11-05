@@ -1,5 +1,4 @@
 import {
-  BookOpen,
   Code,
   Github,
   Instagram,
@@ -7,11 +6,11 @@ import {
   Linkedin,
   Mail,
   Scroll,
-  ShoppingCart,
   Twitter,
   User,
 } from 'lucide-react'
-import config from '@/config/config';
+
+import config from '@/config/config'
 
 export const generalLinks = [
   {
@@ -25,11 +24,6 @@ export const generalLinks = [
     icon: User,
   },
   {
-    href: config.links.blog,
-    label: 'Blog',
-    icon: BookOpen,
-  },
-  {
     href: config.links.projects,
     label: 'Proyectos',
     icon: Code,
@@ -38,12 +32,6 @@ export const generalLinks = [
     href: config.links.stack,
     label: 'Stack',
     icon: Layers,
-  },
-  {
-    href: config.links.shop,
-    label: 'Tienda',
-    target: '_blank',
-    icon: ShoppingCart,
   },
 ]
 
