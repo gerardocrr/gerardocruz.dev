@@ -1,9 +1,3 @@
-import { Instagram } from "lucide-react";
-
-
-
-
-
 const config = {
   name: 'Edu Calvo - Portfolio',
   description: 'Diseñador web y Frontend con sede en Madrid',
@@ -23,12 +17,10 @@ const config = {
   links: {
     home: '/',
     about: '/about',
-    blog: '/blog',
     projects: '/proyectos',
     stack: '/stack',
-    shop: 'https://educalvolopez.lemonsqueezy.com/',
     email: 'mailto:example@example.com',
   },
 }
 
-export default config;
+export default config
