@@ -1,11 +1,9 @@
 import {
   Code,
   Github,
-  Instagram,
   Layers,
   Linkedin,
   Mail,
-  Scroll,
   Twitter,
   User,
 } from 'lucide-react'
@@ -37,15 +35,9 @@ export const generalLinks = [
 
 export const linksSocial = [
   {
-    href: config.socialLinks.twitter,
-    icon: Twitter,
-    label: 'Seguir en Twitter',
-    outline: true,
-  },
-  {
-    href: config.socialLinks.instagram,
-    icon: Instagram,
-    label: 'Seguir en Instagram',
+    href: config.socialLinks.linkedin,
+    icon: Linkedin,
+    label: 'Seguir en LinkedIn',
     outline: true,
   },
   {
@@ -55,15 +47,9 @@ export const linksSocial = [
     outline: true,
   },
   {
-    href: config.socialLinks.linkedin,
-    icon: Linkedin,
-    label: 'Seguir en LinkedIn',
-    outline: true,
-  },
-  {
-    href: config.socialLinks.readcv,
-    icon: Scroll,
-    label: 'Read.cv',
+    href: config.socialLinks.twitter,
+    icon: Twitter,
+    label: 'Seguir en Twitter',
     outline: true,
   },
   {

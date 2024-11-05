@@ -11,8 +11,6 @@ const config = {
     twitter: 'https://twitter.com/educalvolpz',
     github: 'https://github.com/educlopez',
     linkedin: 'https://linkedin.com/in/educlopez',
-    instagram: 'https://instagram.com/edui_design',
-    readcv: 'https://read.cv/educlopez',
   },
   links: {
     home: '/',
