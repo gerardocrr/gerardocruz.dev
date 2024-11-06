@@ -1,7 +1,6 @@
 import { allProjects } from 'contentlayer/generated'
 
 import { ProjectCardGal } from '@/components/cards/project/ProjectCard'
-import { Clients } from '@/components/sections/Clients'
 import { SimpleLayout } from '@/components/ui/SimpleLayout'
 
 export const metadata = {
@@ -37,8 +36,6 @@ export default function Projects() {
               />
             ))}
         </ul>
-
-        <Clients className="mt-16 sm:mt-20" />
       </SimpleLayout>
     </>
   )
