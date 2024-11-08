@@ -68,7 +68,7 @@ export const Post = defineDocumentType(() => ({
 
 export const Project = defineDocumentType(() => ({
   name: 'Project',
-  filePathPattern: `proyectos/**/*.mdx`,
+  filePathPattern: `projects/**/*.mdx`,
   contentType: 'mdx',
   fields: {
     title: {
