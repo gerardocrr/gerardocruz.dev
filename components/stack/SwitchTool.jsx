@@ -1,6 +1,6 @@
 'use client'
 
-import { stackDeveopment } from '@/data/stacks'
+import { stackDevelopment } from '@/data/stacks'
 
 import { Tool } from '@/components/stack/ToolItem'
 import { ToolsSectionGrid } from '@/components/stack/ToolsSections'
@@ -10,7 +10,7 @@ export function SwitchTool() {
     <>
       <div className="space-y-20">
         <ToolsSectionGrid title="Desarrollo">
-          {stackDeveopment.map((item, index) => (
+          {stackDevelopment.map((item, index) => (
             <Tool
               grid={true}
               title={item.title}
