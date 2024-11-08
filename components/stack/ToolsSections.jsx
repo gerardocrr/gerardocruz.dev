@@ -1,7 +1,6 @@
 import { cva } from 'class-variance-authority'
 
 import { cn } from '@/lib/utils'
-import { Section } from '@/components/ui/Section'
 
 const gridVariants = cva(
   'grid grid-cols-3 mt-5 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 xl:gap-x-8',
@@ -18,15 +17,7 @@ const gridVariants = cva(
     },
   }
 )
-export function ToolsSection({ children, ...props }) {
-  return (
-    <Section {...props}>
-      <ul role="list" className="space-y-16">
-        {children}
-      </ul>
-    </Section>
-  )
-}
+
 export function ToolsSectionGrid({ children, title, size, className }) {
   return (
     <section className="md:border-l md:border-zinc-400/40 md:pl-6 md:dark:border-white/10">
