@@ -5,7 +5,7 @@ import { stackDevelopment } from '@/data/stacks'
 import { Tool } from '@/components/stack/ToolItem'
 import { ToolsSectionGrid } from '@/components/stack/ToolsSections'
 
-export function SwitchTool() {
+export function Stack() {
   return (
     <>
       <div className="space-y-20">
