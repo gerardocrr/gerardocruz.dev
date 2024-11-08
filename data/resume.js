@@ -4,9 +4,9 @@ export const resume = [
   {
     index: 1,
     company: 'Tecnológico Superior de Jalisco',
-    title: 'Diseñador Web y Frontend',
+    title: 'Desarrollador de software - Practicante',
     logo: logoTSJ,
-    start: '2018',
-    end: '2021',
+    start: 'January 2024',
+    end: 'June 2024',
   },
 ]
