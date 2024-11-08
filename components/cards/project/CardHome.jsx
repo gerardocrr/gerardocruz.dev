@@ -55,7 +55,7 @@ export default function StackProject({ className }) {
       </Card.Pill>
       <div className="flex items-center justify-center w-full h-[240px]">
         <Button
-          href="/proyectos"
+          href="/projects"
           styleBtn="boxgen"
           className="absolute z-40 hidden px-2 transition -translate-y-1/2 group-hover:flex top-1/2 dark:bg-neutral-900/70"
         >

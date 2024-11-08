@@ -81,7 +81,7 @@ export default async function projectPage({ params }) {
       <div className="xl:relative">
         <div className="max-w-2xl mx-auto">
           <Link
-            href="/proyectos"
+            href="/projects"
             className="items-center justify-center lg:absolute lg:-left-5 lg:-mt-2 lg:mb-0 xl:-top-1.5 xl:left-5 xl:mt-0 mb-8 flex h-10 w-10 rounded-full box-gen"
           >
             <ArrowLeft className="w-4 h-4 " />
