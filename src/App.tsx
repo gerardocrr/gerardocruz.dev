@@ -1,9 +1,13 @@
+import { Layout } from "./components/Layout";
+
 function App() {
   return (
     <>
-      <div>
-        <p>Gerardocruz.dev</p>
-      </div>
+      <Layout>
+        <div>
+          <p>Gerardocruz.dev</p>
+        </div>
+      </Layout>
     </>
   );
 }
