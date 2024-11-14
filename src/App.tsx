@@ -1,13 +1,12 @@
 import { Layout } from "./components/Layout";
+import { MainPage } from "./pages/MainPage";
 import "./App.css";
 
 function App() {
   return (
     <>
       <Layout>
-        <div>
-          <p>Gerardocruz.dev</p>
-        </div>
+        <MainPage />
       </Layout>
     </>
   );
