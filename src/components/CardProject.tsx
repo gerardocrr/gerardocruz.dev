@@ -22,7 +22,10 @@ export function CardProject({ project }: { project: Project }) {
       <div className="flex items-center">
         <img src="/logo.ico" alt="" className="h-6 w-6 mr-2" />
         {project.tags.map((tag) => (
-          <span className="cursor-default rounded-md border border-neutral-300 px-2 py-1 bg-neutral-800/60 text-neutral-300">
+          <span
+            key={tag}
+            className="cursor-default rounded-md border border-neutral-300 px-2 py-1 bg-neutral-800/60 text-neutral-300"
+          >
             {tag}
           </span>
         ))}
