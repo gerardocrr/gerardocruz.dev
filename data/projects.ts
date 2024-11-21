@@ -1,5 +1,6 @@
 export const projects = [
   {
+    id: "1",
     img: "/logo.ico",
     title: "test 1",
     link: "gerardocruz.dev",
@@ -7,6 +8,7 @@ export const projects = [
     tags: ["HTML", "JavaScript", "React"],
   },
   {
+    id: "2",
     img: "/logo.ico",
     title: "test 2",
     link: "gerardocruz.dev2",
@@ -14,6 +16,7 @@ export const projects = [
     tags: ["HTML", "JavaScript", "React"],
   },
   {
+    id: "3",
     img: "/logo.ico",
     title: "test 3",
     link: "gerardocruz.dev3",
