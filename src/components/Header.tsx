@@ -6,7 +6,7 @@ import { ModeToggle } from "./mode-toggle";
 
 export function Header() {
   return (
-    <header className="flex justify-between mt-10">
+    <header className="flex justify-between mt-5">
       <h1 className="font-bold">gerardocruz.dev</h1>
       <div className="flex items-center gap-2">
         <a
