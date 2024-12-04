@@ -1,6 +1,7 @@
 import LinkedIn from "../icons/Linkedin";
 import Github from "../icons/Github";
 import X from "../icons/X";
+import { ModeToggle } from "./mode-toggle";
 
 export function Header() {
   return (
@@ -19,6 +20,7 @@ export function Header() {
         <a href="https://x.com/gerardocrrr" target="_blank">
           <X />
         </a>
+        <ModeToggle />
       </div>
     </header>
   );
