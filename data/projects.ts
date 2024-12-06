@@ -1,21 +1,23 @@
 export const projects = [
   {
     id: "1",
-    img: "/logo.ico",
+    img: "📂",
     title: "Job Aligner",
     web: "https://job-aligner-ai.vercel.app/",
     github: "https://github.com/gerardocrr/job-aligner",
-    description: "test description",
-    tags: ["HTML", "JavaScript", "React"],
+    description:
+      "Analyzes CVs and LinkedIn vacancies with AI, providing information about the candidate's suitability for the position.",
+    tags: ["JavaScript", "React", "Perpexity", "Vercel AI SDK", "TailwindCSS"],
   },
   {
     id: "2",
-    img: "/logo.ico",
+    img: "🎃",
     title: "Spooky Customize AI",
     web: "https://spooky-customize-ai.vercel.app/",
     github: "https://github.com/gerardocrr/spooky-customize-ai",
-    description: "test description2",
-    tags: ["HTML", "JavaScript", "React"],
+    description:
+      "Upload your favorite image and the AI adds a mask and random background inspired by your favorite horror movies.",
+    tags: ["TypeScript", "React", "Cloudinary", "TailwindCSS"],
   },
   {
     id: "3",
@@ -24,6 +26,6 @@ export const projects = [
     web: "gerardocruz.dev3",
     github: "htts://www.github.com/gerardocrr",
     description: "test description3",
-    tags: ["HTML", "JavaScript", "React"],
+    tags: ["JavaScript", "React"],
   },
 ];
